@@ -143,4 +143,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7375a9688fd6c41a7efba0c3206c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healEffect: {fileID: 5492214234810534898, guid: 1ed5a6d9e55fdf04493f68994826c927, type: 3}
+  collectedClip: {fileID: 8300000, guid: af5f8b64e3f58f24c87ff8f789b04f6c, type: 3}
