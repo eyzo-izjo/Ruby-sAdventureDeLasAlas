@@ -9,9 +9,9 @@ public class EnemyController : MonoBehaviour
     public float changeTime = 3.0f;
 
     public ParticleSystem smokeEffect;
-    //public ParticleSystem boomEffect;
+    public ParticleSystem boomEffect;
 
-    new Rigidbody2D rigidbody2D;
+    Rigidbody2D rigidbody2D;
     float timer;
     int direction = 1;
     bool broken = true;
