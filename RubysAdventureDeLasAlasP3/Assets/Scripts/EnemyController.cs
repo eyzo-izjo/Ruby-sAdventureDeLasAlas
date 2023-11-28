@@ -9,7 +9,6 @@ public class EnemyController : MonoBehaviour
     public float changeTime = 3.0f;
 
     public ParticleSystem smokeEffect;
-    //public ParticleSystem boomEffect;
 
     new Rigidbody2D rigidbody2D;
     float timer;
@@ -20,6 +19,7 @@ public class EnemyController : MonoBehaviour
 
     AudioSource audioSource;
     public AudioClip fixedClip;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -77,7 +77,9 @@ public class EnemyController : MonoBehaviour
 
         if(player != null)
         {
+     
             player.ChangeHealth(-1);
+
         }
     }
 
@@ -86,7 +88,7 @@ public class EnemyController : MonoBehaviour
         broken = false;
         rigidbody2D.simulated = false;
         animator.SetTrigger("Fixed");
-        //boomEffect.Play();
+       
         smokeEffect.Stop();
 
         PlaySound(fixedClip);

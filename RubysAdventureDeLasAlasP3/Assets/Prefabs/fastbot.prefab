@@ -178,8 +178,8 @@ MonoBehaviour:
   vertical: 0
   changeTime: 3
   smokeEffect: {fileID: 6984656944848276306}
-  boomEffect: {fileID: 0}
   fixedClip: {fileID: 8300000, guid: e7fa1971a86d60945bb64585c0ac14d5, type: 3}
+  botHitClip: {fileID: 8300000, guid: 709a835b61b848644946696fdd5e5a4d, type: 3}
 --- !u!95 &5261901861707565657
 Animator:
   serializedVersion: 5
